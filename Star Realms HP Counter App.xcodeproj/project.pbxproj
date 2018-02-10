@@ -12,6 +12,7 @@
 		C5C6DBFF202D5F740058CBF2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5C6DBFD202D5F740058CBF2 /* Main.storyboard */; };
 		C5C6DC01202D5F740058CBF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5C6DC00202D5F740058CBF2 /* Assets.xcassets */; };
 		C5C6DC04202D5F740058CBF2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5C6DC02202D5F740058CBF2 /* LaunchScreen.storyboard */; };
+		C5C6DC0D202D60F40058CBF2 /* HVD_Comic_Serif_Pro.otf in Resources */ = {isa = PBXBuildFile; fileRef = C5C6DC0C202D60F40058CBF2 /* HVD_Comic_Serif_Pro.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		C5C6DC00202D5F740058CBF2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C5C6DC03202D5F740058CBF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C5C6DC05202D5F740058CBF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5C6DC0C202D60F40058CBF2 /* HVD_Comic_Serif_Pro.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = HVD_Comic_Serif_Pro.otf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		C5C6DBF8202D5F740058CBF2 /* Star Realms HP Counter App */ = {
 			isa = PBXGroup;
 			children = (
+				C5C6DC0B202D60F40058CBF2 /* Star Realms Assets */,
 				C5C6DBF9202D5F740058CBF2 /* AppDelegate.swift */,
 				C5C6DBFB202D5F740058CBF2 /* ViewController.swift */,
 				C5C6DBFD202D5F740058CBF2 /* Main.storyboard */,
@@ -62,6 +65,14 @@
 				C5C6DC05202D5F740058CBF2 /* Info.plist */,
 			);
 			path = "Star Realms HP Counter App";
+			sourceTree = "<group>";
+		};
+		C5C6DC0B202D60F40058CBF2 /* Star Realms Assets */ = {
+			isa = PBXGroup;
+			children = (
+				C5C6DC0C202D60F40058CBF2 /* HVD_Comic_Serif_Pro.otf */,
+			);
+			path = "Star Realms Assets";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +136,7 @@
 			files = (
 				C5C6DC04202D5F740058CBF2 /* LaunchScreen.storyboard in Resources */,
 				C5C6DC01202D5F740058CBF2 /* Assets.xcassets in Resources */,
+				C5C6DC0D202D60F40058CBF2 /* HVD_Comic_Serif_Pro.otf in Resources */,
 				C5C6DBFF202D5F740058CBF2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

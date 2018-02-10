@@ -17,12 +17,17 @@ class ViewController: UIViewController {
     @IBOutlet var labeltwo: UILabel!
         var cake = 0
     
+    @IBOutlet var ponescore: UILabel!
+        var onescore = 0
+    
+    @IBOutlet var ptwoscore: UILabel!
+        var twoscore = 0
     
     @IBAction func seventyfiveButton(_ sender: UIButton) {
-        var pie1 = 75
-        pie = pie1
-        var realPie = String(pie)
-        label.text = realPie
+        var seventyfive = 75
+        onescore = seventyfive
+        var realseventyfive = String(onescore)
+        ponescore.text = realseventyfive
 
         var cake1 = 75
         cake = cake1
@@ -33,10 +38,10 @@ class ViewController: UIViewController {
     
     @IBAction func onehundredButton(_ sender: UIButton) {
         
-        var pie1 = 100
-        pie = pie1
-        var realPie = String(pie)
-        label.text = realPie
+        var onehundred = 100
+        onescore = onehundred
+        var realonehundred = String(onescore)
+        ponescore.text = realonehundred
         
         var cake1 = 100
         cake = cake1
@@ -47,10 +52,10 @@ class ViewController: UIViewController {
     
     @IBAction func fiftyButton(_ sender: UIButton) {
         
-        var pie1 = 50
-        pie = pie1
-        var realPie = String(pie)
-        label.text = realPie
+        var fifty = 50
+        onescore = fifty
+        var realfifty = String(onescore)
+        ponescore.text = realfifty
         
         var cake1 = 50
         cake = cake1
@@ -93,6 +98,23 @@ class ViewController: UIViewController {
         var realPie = String(pie)
         label.text = realPie
     }
+    
+    
+    @IBAction func oneattackButton(_ sender: UIButton) {
+        
+        var score1 = twoscore - pie
+      
+        twoscore = score1
+        var realScore = String(twoscore)
+        ptwoscore.text = realScore
+    
+        var pie0 = 0
+        pie = pie0
+        var realpie0 = String(pie)
+        label.text = realpie0
+    
+    }
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
